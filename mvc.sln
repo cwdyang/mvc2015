@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc", "mvc\mvc.csproj", "{95BD7826-04AD-4580-AC64-D6F73F46DEE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc.Tests", "mvc.Tests\mvc.Tests.csproj", "{A370323A-38DD-42A8-9E92-CB8DCFF10121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{735B3AAC-D3D5-4C95-8711-D8C90C2FCBDA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{1B261866-8B22-4B63-82DD-C406CEB141B6}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\mvc-WAWS-dev.json = PublishScripts\Configurations\mvc-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domainModels", "domainModels\domainModels.csproj", "{F8CC05EB-D646-4348-97F7-2F3CE23D51CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95BD7826-04AD-4580-AC64-D6F73F46DEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BD7826-04AD-4580-AC64-D6F73F46DEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BD7826-04AD-4580-AC64-D6F73F46DEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BD7826-04AD-4580-AC64-D6F73F46DEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A370323A-38DD-42A8-9E92-CB8DCFF10121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A370323A-38DD-42A8-9E92-CB8DCFF10121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A370323A-38DD-42A8-9E92-CB8DCFF10121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A370323A-38DD-42A8-9E92-CB8DCFF10121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CC05EB-D646-4348-97F7-2F3CE23D51CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CC05EB-D646-4348-97F7-2F3CE23D51CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CC05EB-D646-4348-97F7-2F3CE23D51CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CC05EB-D646-4348-97F7-2F3CE23D51CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B261866-8B22-4B63-82DD-C406CEB141B6} = {735B3AAC-D3D5-4C95-8711-D8C90C2FCBDA}
+	EndGlobalSection
+EndGlobal
