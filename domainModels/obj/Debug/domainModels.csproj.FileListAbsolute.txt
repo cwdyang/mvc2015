@@ -2,3 +2,4 @@ c:\dev\vs2015\mvc\domainModels\bin\Debug\domainModels.dll
 c:\dev\vs2015\mvc\domainModels\bin\Debug\domainModels.pdb
 c:\dev\vs2015\mvc\domainModels\obj\Debug\domainModels.dll
 c:\dev\vs2015\mvc\domainModels\obj\Debug\domainModels.pdb
+c:\dev\vs2015\mvc\domainModels\obj\Debug\domainModels.csprojResolveAssemblyReference.cache
