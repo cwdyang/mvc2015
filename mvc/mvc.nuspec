@@ -4,7 +4,7 @@
     <version>$version$</version>
     <authors>Tingtong</authors>
     <owners />
-    <id>$id$</id>
+    <id>mvc</id>
     <title />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
