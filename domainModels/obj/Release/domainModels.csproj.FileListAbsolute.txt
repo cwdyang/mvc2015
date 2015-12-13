@@ -1,0 +1,5 @@
+c:\dev\vs2015\mvc\domainModels\bin\Release\domainModels.dll
+c:\dev\vs2015\mvc\domainModels\bin\Release\domainModels.pdb
+c:\dev\vs2015\mvc\domainModels\obj\Release\domainModels.csprojResolveAssemblyReference.cache
+c:\dev\vs2015\mvc\domainModels\obj\Release\domainModels.dll
+c:\dev\vs2015\mvc\domainModels\obj\Release\domainModels.pdb
